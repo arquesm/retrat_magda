@@ -18,4 +18,16 @@ void draw(){
   line(-30,-120,90,-120);
   line(90,-120,90,0);
   line(90,0,60,0);
+  //rostre
+  //ulleres
+  line(-60, -30, -40, -30);
+  ellipse(-30, -30, 20, 20);
+  line(-20, -30, -10, -30);
+  ellipse(5, -30, 20, 20);
+  line(20, -30, 60, -30);
+  //ulls
+  point(-30, -30);
+  point(5, -30);
+  //boca
+  arc(-17, 25, 30, 30, radians(0), radians(180));
 }
